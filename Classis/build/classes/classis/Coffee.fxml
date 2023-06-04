@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="classis.CoffeeController">
+    <stylesheets>
+        <URL value="@coffee.css" />
+    </stylesheets>
+   <children>
+      <Pane prefHeight="506.0" prefWidth="200.0" styleClass="pane">
+         <children>
+            <Button layoutX="39.0" layoutY="53.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="129.0" styleClass="btn1" text="Blank" />
+            <Button layoutX="39.0" layoutY="140.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="129.0" styleClass="btn2" text="Blank" />
+            <Button layoutX="39.0" layoutY="230.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="129.0" styleClass="btn3" text="Blank" />
+            <Button layoutX="39.0" layoutY="308.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="129.0" styleClass="btn4" text="Blank" />
+         </children>
+      </Pane>
+      <Button layoutX="244.0" layoutY="181.0" mnemonicParsing="false" styleClass="btn5" text="Blank" />
+      <Button layoutX="374.0" layoutY="181.0" mnemonicParsing="false" styleClass="btn6" text="Blank" />
+      <Button layoutX="515.0" layoutY="181.0" mnemonicParsing="false" styleClass="btn7" text="Bank" />
+      <Button layoutX="236.0" layoutY="360.0" mnemonicParsing="false" styleClass="btn8" text="Bank" />
+      <Button layoutX="374.0" layoutY="360.0" mnemonicParsing="false" styleClass="btn9" text="Blank" />
+      <Button layoutX="502.0" layoutY="360.0" mnemonicParsing="false" styleClass="btn10" text="Blank" />
+      <Label layoutX="252.0" layoutY="150.0" text="Label" />
+      <Label layoutX="382.0" layoutY="150.0" text="Label" />
+      <Label layoutX="522.0" layoutY="150.0" text="Label" />
+      <Label layoutX="243.0" layoutY="333.0" text="Label" />
+      <Label layoutX="382.0" layoutY="333.0" text="Label" />
+      <Label layoutX="510.0" layoutY="333.0" text="Label" />
+      <ImageView fitHeight="113.0" fitWidth="108.0" layoutX="212.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gtwhite.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="104.0" fitWidth="108.0" layoutX="349.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@nescafe.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="104.0" fitWidth="108.0" layoutX="484.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@kopiko.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="104.0" fitWidth="108.0" layoutX="212.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@44.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="108.0" layoutX="360.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mig.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="108.0" layoutX="482.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@jimmy.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
